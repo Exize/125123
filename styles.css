@@ -1,0 +1,213 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #141414;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #1e1e1e;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 600px;
+    text-align: left;
+}
+
+h1 {
+    color: #ffffff; /* Изменено на белый цвет */
+    margin-bottom: 20px;
+}
+
+.auth-links {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.auth-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ff5722;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.auth-links a:hover {
+    color: #ffab91;
+}
+
+form {
+    display: grid;
+    gap: 15px;
+}
+
+input {
+    padding: 12px;
+    border: 1px solid #444;
+    border-radius: 6px;
+    background-color: #262626;
+    color: #ffffff;
+}
+
+button {
+    padding: 12px;
+    background-color: #ff5722;
+    color: #ffffff; /* Изменено на белый цвет */
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e64a19;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ff5722;
+    transition: color 0.3s;
+}
+
+ul li a:hover {
+    color: #ffab91;
+}
+
+#profile-info {
+    margin-bottom: 30px;
+}
+
+#profile-info p {
+    margin: 12px 0;
+    color: #ffffff; /* Изменено на белый цвет */
+}
+
+.error {
+    color: #ff5252;
+    font-weight: bold;
+}
+
+.success {
+    color: #4caf50;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+table, th, td {
+    border: 1px solid #444;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    color: #ffffff; /* Изменено на белый цвет */
+}
+
+th {
+    background-color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #2a2a2a;
+}
+
+tr:hover {
+    background-color: #333;
+}
+
+.admin-link {
+    display: block;
+    margin: 30px 0;
+    padding: 12px;
+    background-color: #ff5722;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+
+.admin-link:hover {
+    background-color: #e64a19;
+}
+
+#test-selection {
+    margin-top: 30px;
+}
+
+#test-selection ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#test-selection li {
+    margin: 10px 0;
+}
+
+#test-selection a {
+    text-decoration: none;
+    color: #ff5722;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+#test-selection a:hover {
+    color: #ffab91;
+}
+
+/* Новые стили для кнопок */
+#start-test {
+    margin-bottom: 20px; /* Увеличивает расстояние между кнопками */
+}
+.edit-button, .delete-button {
+    padding: 8px 12px;
+    background-color: #ff5722; /* Оранжевый цвет */
+    color: #ffffff; /* Белый текст */
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    display: block; /* Убедимся, что кнопки блоковые и располагаются вертикально */
+    width: 80%; /* Чтобы кнопки растягивались по ширине */
+}
+
+.edit-button {
+    margin-bottom: 20px; /* Увеличенное вертикальное расстояние */
+}
+
+.edit-button:hover, .delete-button:hover {
+    background-color: #e64a19; /* Темно-оранжевый цвет при наведении */
+}
+.question h3, /* Заголовки вопросов */
+label { /* Текст ответов */
+    color: #ffffff; /* Белый цвет текста */
+}
+.scroll-container {
+    max-height: 400px; /* Установите желаемую максимальную высоту */
+    overflow-y: auto; /* Позволяет вертикальную прокрутку */
+    border: 1px solid #444; /* Обводка для контейнера */
+    padding: 10px; /* Отступы внутри контейнера */
+    border-radius: 6px; /* Скругление углов */
+    background-color: #262626; /* Цвет фона для контейнера */
+}
